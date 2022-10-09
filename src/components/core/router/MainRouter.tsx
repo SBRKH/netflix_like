@@ -5,7 +5,8 @@ import {Home} from "../../app/home/Home";
 export const MainRouter = () => {
   return (
     <Sheet sx={{
-      padding: 2
+      padding: 2,
+      paddingTop: 5
     }}>
       <Routes>
         <Route path={"/"} element={<Home />} />
